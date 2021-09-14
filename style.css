@@ -12,6 +12,9 @@
 }
 
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Glory', sans-serif;
 }
 
@@ -24,10 +27,11 @@ nav{
 nav li{
     display: inline-block;
     padding: 0 10px;
-    height: 100%;
+    line-height: 50px;
 }
 
 nav ul{
+    width: 20%;
     float: right;
 }
 
@@ -76,6 +80,7 @@ footer{
     background: #7f8c54;
     height: auto;
     line-height: 30px;
+    margin-top: auto;
 }
 
 img{
@@ -107,7 +112,7 @@ li{
 }
 
 .sitefab{
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -121,4 +126,15 @@ nav li:hover{
     background: #fff;
     transition: 500ms;
     color: #dd5351;
+}
+
+nav li:hover a{
+    color: #dd5351;
+}
+
+
+@media only screen and (max-width: 800px){
+    section{
+        flex-wrap: wrap;
+    }
 }
