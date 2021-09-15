@@ -21,7 +21,7 @@ body{
 
 nav{
     width: 100%;
-    background: rgb(48, 60, 138);
+    background: #233070;
     height: 50px;
 }
 
@@ -83,7 +83,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(38, 48, 110);
+    background: #233070;
     height: auto;
     margin-top: auto;
 }
@@ -103,13 +103,13 @@ img{
 }
 
 .color{
-    background: rgb(255, 156, 89);
+    background: #ed7623;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .section-footer{
     margin: 0px;
-    background: rgb(38, 48, 110);
+    background: #233070;
     width: 75%;
 }
 
@@ -140,7 +140,7 @@ nav li:hover{
 }
 
 nav li:hover a{
-    color: rgb(38, 48, 110);
+    color: #233070;
 }
 
 .bars{
@@ -180,6 +180,6 @@ nav li:hover a{
         display: initial;
     }
     .bars:hover i{
-       color: rgb(38, 48, 110);
+       color: #233070;
     }
 }
