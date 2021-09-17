@@ -1,9 +1,5 @@
-.colorPalette{
-    color: #439a86;
-    color: #bcd8c1;
-    color: #e9d985;
-    color: #007991;
-    color: #222e50;   
+html{
+    font-size: 18px;
 }
 
 *{
@@ -21,7 +17,7 @@ body{
 
 nav{
     width: 100%;
-    background: #233070;
+    background: whitesmoke;
     height: 50px;
 }
 
@@ -41,9 +37,9 @@ li{
 }
 
 a{
-    font-size:  18px;
+    font-size:  1rem;
     text-decoration: none;
-    color: #fff;
+    color: #233070;
     line-height: 50px;
 }
 
@@ -59,19 +55,21 @@ section{
     display: flex;
     flex-direction: row;
     flex-basis: 100%;
+    flex-wrap: wrap;
 }
 
 article{
-    align-items: center;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-basis: 100%;
+
 }
 
 P{
-    font-size: 18px;
-    width: 75%;
+    width: 60%;
+    font-size: 1rem;
 }
 
 h1{
@@ -99,6 +97,7 @@ img{
 
 .laptop{
     height: 100%;
+    margin: 0 auto;
     filter: drop-shadow(0px 8px 6px black);
 }
 
@@ -111,22 +110,28 @@ img{
     margin: 0px;
     background: #233070;
     width: 75%;
+    flex-wrap: nowrap;
 }
-
+.section-footer a{
+    color: #fff;
+}
 .section-footer article{
     padding: 20px;
+    align-items: initial;
 }
 
 i{
     margin: 5px;
     color: #fff;
     font-size: 24px;
+    padding-right: 5px;
 }
 
 .sitefab{
     font-size: 50px;
     text-align: center;
 }
+
 
 .logo{
     margin: 0 auto;
@@ -146,6 +151,8 @@ nav li:hover a{
 .bars{
     display: none;
 }
+
+
 
 
 @media only screen and (max-width: 1150px){
@@ -179,6 +186,7 @@ nav li:hover a{
     .bars:hover nav li{
         display: initial;
     }
+    
     .bars:hover i{
        color: #233070;
     }
